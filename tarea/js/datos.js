@@ -11,3 +11,5 @@ export const estudiantes = [
 // Exportación por defecto: nuevo estudiante con spread de objeto
 const nuevoEstudiante = { ...estudiantes[0], nombre: "Ana María" };
 export default nuevoEstudiante;
+
+console.log("Módulo datos.js cargado");
